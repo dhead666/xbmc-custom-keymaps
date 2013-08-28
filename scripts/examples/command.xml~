@@ -1,1 +1,0 @@
-      <f9>RunScript(special://xbmc/system/keymaps/nyxboard/py_livetvosd.py,"ActivateWindow(Teletext)","RunScript(script.xbmc.subtitles)",1)</f9>
