@@ -1,0 +1,523 @@
+<!-- Mappings for CDRC RF091 -->
+<!-- This keymap uses placeholders for quickly adapting it to any variant of this remote -->
+<!-- Created by dhead666 -->
+<keymap>
+  <global>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <!-- n/a -->										<!-- Button 01 : Power -->
+      <volume_mute>Mute</volume_mute>										<!-- Button 02 : Mute -->
+      <rewind_btn>Rewind</rewind_btn>									<!-- Button 03 : << -->
+      <stop>Stop</stop>										<!-- Button 04 : stop -->
+      <play_pause>Play</play_pause>								<!-- Button 05 : > -->
+      <prev_track>SkipPrevious</prev_track>							<!-- Button 06 : |<< -->
+      <fastforward_btn>FastForward</fastforward_btn>							<!-- Button 07 : >> -->
+      <!-- n/a -->											<!-- Button 08 : Record -->
+      <pause>Pause</pause> 										<!-- Button 09 : || -->
+      <next_track>SkipNext</next_track>								<!-- Button 10 : >>| -->
+      <f8>noop</f8> <!-- Mouse On/Off Fix -->								<!-- Button 11 : Mouse Toggle -->
+      <!-- n/a -->									<!-- Button 12 : Mouse Left Click -->
+      <!-- n/a -->									<!-- Button 13 : Mouse Right Click -->
+      <up>Up</up>										<!-- Button 14 : up -->
+      <left>Left</left>										<!-- Button 15 : left -->
+      <select_btn>Select</select_btn>									<!-- Button 16 : OK -->
+      <right>Right</right>									<!-- Button 17 : right -->
+      <down>Down</down>										<!-- Button 18 : down -->
+      <volume_up>VolumeUp</volume_up>								<!-- Button 19 : Vol+ -->
+      <volume_down>VolumeDown</volume_down>							<!-- Button 20 : Vol- -->
+      <ch_up>PageUp</ch_up>  								<!-- Button 21 : pg+ -->
+      <ch_down>PageDown</ch_down>								<!-- Button 22 : pg- -->
+      <home>ActivateWindow(Home)</home>							<!-- Button 23 : home -->
+      <return_btn>Back</return_btn>									<!-- Button 24 : back -->
+      <one>Number1</one>										<!-- Button 25 : 1 -->
+      <two>Number2</two>										<!-- Button 26 : 2 -->
+      <three>Number3</three>										<!-- Button 27 : 3 -->
+      <four>Number4</four>										<!-- Button 28 : 4 -->
+      <five>Number5</five>										<!-- Button 29 : 5 -->
+      <six>Number6</six>										<!-- Button 30 : 6 -->
+      <seven>Number7</seven>										<!-- Button 31 : 7 -->
+      <eight>Number8</eight>										<!-- Button 32 : 8 -->
+      <nine>Number9</nine>										<!-- Button 33 : 9 -->
+      <zero>Number0</zero>										<!-- Button 34 : 0 -->
+      <info_btn>Info</info_btn>										<!-- Button 35 : Info -->
+      <list_btn>Playlist</list_btn>									<!-- Button 36 : List -->
+      <settings_btn>ActivateWindow(Settings)</settings_btn>						<!-- Button 37 : Settings -->
+      <menu_btn>ContextMenu</menu_btn>									<!-- Button 38 : Menu -->
+      <fullscreen_btn>FullScreen</fullscreen_btn>									<!-- Button 39 : */# -->
+      <!-- fav_btn -->									<!-- Button 40 : FAV -->
+      <red_btn>Close</red_btn>  										<!-- Button 41 : Red -->
+      <green_btn>Close</green_btn>									<!-- Button 42 : Green -->
+      <yellow_btn>Close</yellow_btn>						<!-- Button 43 : Yellow -->
+      <blue_btn>Close</blue_btn>										<!-- Button 44 : Blue -->
+    </keyboard>
+  </global>
+  <LoginScreen>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <!-- Empty -->
+    </keyboard>
+  </LoginScreen>
+  <Home>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <home>FullScreen</home>
+      <seven>ActivateWindowAndFocus(MyPVR, 33,0, 12,0)</seven>
+      <nine>ActivateWindowAndFocus(MyPVR, 32,0, 11,0)</nine>
+      <info_btn>ActivateWindow(SystemInfo)</info_btn>
+      <list_btn>Playlist</list_btn>
+      <fav_btn>ActivateWindow(Favourites)</fav_btn>
+      <red_btn>ActivateWindow(Music)</red_btn>
+      <green_btn>ActivateWindow(Videos,MovieTitles)</green_btn>
+      <yellow_btn>ActivateWindow(Videos,TvShowTitles)</yellow_btn>
+      <blue_btn>ActivateWindow(Pictures)</blue_btn>
+    </keyboard>
+  </Home>
+  <SystemInfo>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <info_btn>Back</info_btn>
+      <fav_btn>ActivateWindow(Favourites)</fav_btn>
+    </keyboard>
+  </SystemInfo>
+  <Programs>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <fav_btn>ActivateWindow(Favourites)</fav_btn>
+    </keyboard>
+  </Programs>
+  <Settings>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <settings_btn>Back</settings_btn>
+      <fav_btn>ActivateWindow(Favourites)</fav_btn>
+    </keyboard>
+  </Settings>
+  <VirtualKeyboard>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <backspace>Backspace</backspace> 		 				<!-- Keyboard -->
+    </keyboard>
+  </VirtualKeyboard>
+  <MyFiles>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <ch_up>PageUp</ch_up>
+      <ch_down>PageDown</ch_down>
+      <fav_btn>ActivateWindow(Favourites)</fav_btn>
+      <red_btn>Delete</red_btn>
+      <green_btn>Highlight</green_btn>
+    </keyboard>
+  </MyFiles>
+  <MyMusicPlaylist>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <list_btn>Back</list_btn>
+      <ch_up>MoveItemUp</ch_up>
+      <ch_down>MoveItemDown</ch_down>
+      <fav_btn>ActivateWindow(Favourites)</fav_btn>
+      <red_btn>Delete</red_btn>
+    </keyboard>
+  </MyMusicPlaylist>
+  <MyMusicPlaylistEditor>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <ch_up>MoveItemUp</ch_up>
+      <ch_down>MoveItemDown</ch_down>
+      <fav_btn>ActivateWindow(Favourites)</fav_btn>
+      <red_btn>Delete</red_btn>
+    </keyboard>
+  </MyMusicPlaylistEditor>
+  <MyMusicFiles>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <settings_btn>ActivateWindow(MusicSettings)</settings_btn>
+      <ch_up>PageUp</ch_up>
+      <ch_down>PageDown</ch_down>
+      <list_btn>ActivateWindow(MusicPlaylist)</list_btn>
+      <fav_btn>ActivateWindow(Favourites)</fav_btn>
+      <red_btn>Delete</red_btn>
+      <green_btn>Queue</green_btn>
+    </keyboard>
+  </MyMusicFiles>
+  <MyMusicLibrary>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <settings_btn>ActivateWindow(MusicSettings)</settings_btn>
+      <ch_up>PageUp</ch_up>
+      <ch_down>PageDown</ch_down>
+      <list_btn>ActivateWindow(MusicPlaylist)</list_btn>
+      <fav_btn>ActivateWindow(Favourites)</fav_btn>
+      <red_btn>Delete</red_btn>
+      <green_btn>Queue</green_btn>
+    </keyboard>
+  </MyMusicLibrary>
+  <MusicSettings>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <settings_btn>Back</settings_btn>
+    </keyboard>
+  </MusicSettings>
+ <FullscreenVideo>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <fastforward_btn>FastForward</fastforward_btn>
+      <rewind_btn>Rewind</rewind_btn>
+      <return_btn>Fullscreen</return_btn>
+      <select_btn>OSD</select_btn>
+      <menu_btn>OSD</menu_btn>
+      <info_btn>Info</info_btn>
+      <left>StepBack</left>
+      <right>StepForward</right>
+      <up>BigStepForward</up>
+      <down>BigStepBack</down>
+      <settings_btn>AspectRatio</settings_btn> 
+      <fav_btn>NextSubtitle</fav_btn>
+      <red_btn>RunScript(script.xbmc.subtitles)</red_btn>
+      <green_btn>ActivateWindow(OSDVideoSettings)</green_btn>
+      <yellow_btn>ActivateWindow(OSDAudioSettings)</yellow_btn>
+      <blue_btn>ActivateWindow(VideoBookmarks)</blue_btn>
+      <list_btn>ActivateWindow(VideoPlaylist)</list_btn>
+      <next_track>SkipNext</next_track>
+      <prev_track>SkipPrevious</prev_track>
+    </keyboard>
+  </FullscreenVideo>
+  <VideoTimeSeek>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <select_btn>Select</select_btn>
+    </keyboard>
+  </VideoTimeSeek>
+  <FullscreenInfo>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <fastforward_btn>FastForward</fastforward_btn>
+      <rewind_btn>Rewind</rewind_btn>
+      <info_btn>Back</info_btn>
+      <menu_btn>OSD</menu_btn>
+    </keyboard>
+  </FullscreenInfo>
+  <PlayerControls>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <menu_btn>Back</menu_btn>
+    </keyboard>
+  </PlayerControls>
+  <Visualisation>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <c>RunScript(special://userdata/keymaps/py_ispvr.py,"ActivateWindow(PVROSDChannels)","ActivateWindow(MusicPlaylist)")</c>
+      <fastforward_btn>FastForward</fastforward_btn>
+      <rewind_btn>Rewind</rewind_btn>
+      <return_btn>Fullscreen</return_btn>
+      <select_btn>OSD</select_btn>
+      <menu_btn>OSD</menu_btn>
+      <info_btn>Info</info_btn>
+      <left>SkipPrevious</left>
+      <right>SkipNext</right>
+      <up>RunScript(special://userdata/keymaps/py_ispvr.py,"ActivateWindow(PVROSDChannels)","Action(IncreaseRating)")</up>
+      <down>RunScript(special://userdata/keymaps/py_ispvr.py,"ActivateWindow(PVROSDChannels)","Action(DecreaseRating)")</down>
+      <red_btn>RunScript(script.cu.lrclyrics)</red_btn>
+      <green_btn>RunScript(special://userdata/keymaps/py_activate_click.py,500)</green_btn>
+      <yellow_btn>Addon.Default.OpenSettings(xbmc.player.musicviz)</yellow_btn>
+      <blue_btn>ActivateWindow(VisualisationPresetList)</blue_btn>
+      <list_btn>RunScript(special://userdata/keymaps/py_ispvr.py,"ActivateWindow(PVROSDGuide)","ActivateWindow(MusicPlaylist)")</list_btn>
+    </keyboard>
+  </Visualisation>
+  <MusicOSD>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <fastforward_btn>FastForward</fastforward_btn>
+      <rewind_btn>Rewind</rewind_btn>
+      <next_track>SkipNext</next_track>
+      <prev_track>SkipPrevious</prev_track>
+      <menu_btn>Back</menu_btn>
+      <info_btn>Info</info_btn>
+      <red_btn>RunScript(script.cu.lrclyrics)</red_btn>
+      <green_btn>SendClick(500)</green_btn>
+      <yellow_btn>Addon.Default.OpenSettings(xbmc.player.musicviz)</yellow_btn>
+      <blue_btn>ActivateWindow(VisualisationPresetList)</blue_btn>
+      <list_btn>RunScript(special://userdata/keymaps/py_ispvr.py,"ActivateWindow(PVROSDGuide)","ActivateWindow(MusicPlaylist)")</list_btn>
+    </keyboard>
+  </MusicOSD>
+  <VisualisationSettings>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <fastforward_btn>FastForward</fastforward_btn>
+      <rewind_btn>Rewind</rewind_btn>
+      <next_track>SkipNext</next_track>
+      <prev_track>SkipPrevious</prev_track>
+      <menu_btn>Back</menu_btn>
+      <info_btn>Info</info_btn>
+      <list_btn>ActivateWindow(MusicPlaylist)</list_btn>
+    </keyboard>
+  </VisualisationSettings>
+  <VisualisationPresetList>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <fastforward_btn>FastForward</fastforward_btn>
+      <rewind_btn>Rewind</rewind_btn>
+      <next_track>SkipNext</next_track>
+      <prev_track>SkipPrevious</prev_track>
+      <menu_btn>Back</menu_btn>
+      <info_btn>Info</info_btn>
+      <blue_btn>Close</blue_btn>
+      <list_btn>ActivateWindow(MusicPlaylist)</list_btn>
+    </keyboard>
+  </VisualisationPresetList>
+  <SlideShow>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <play_pause>Pause</play_pause>
+      <menu_btn>ActivateWindow(PlayerControls)</menu_btn>
+      <info_btn>Info</info_btn>
+      <ch_up>ZoomIn</ch_up>
+      <ch_down>ZoomOut</ch_down>
+      <select_btn>Rotate</select_btn>
+      <fav_btn>ActivateWindow(Favourites)</fav_btn>
+    </keyboard>
+  </SlideShow>
+  <ScreenCalibration>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <select_btn>NextCalibration</select_btn>
+      <red_btn>ResetCalibration</red_btn> 
+      <yellow_btn>NextResolution</yellow_btn> 
+    </keyboard>
+  </ScreenCalibration>
+  <GUICalibration>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <select_btn>NextCalibration</select_btn>
+      <red_btn>ResetCalibration</red_btn>
+    </keyboard>
+  </GUICalibration>
+  <VideoOSD>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <menu_btn>Back</menu_btn>
+      <list_btn>RunScript(special://userdata/keymaps/py_ispvr.py,"ActivateWindow(PVROSDGuide)","ActivateWindow(VideoPlaylist)")</list_btn>
+      <settings_btn>AspectRatio</settings_btn> 
+      <info_btn>Info</info_btn>
+      <fav_btn>NextSubtitle</fav_btn>
+      <red_btn>RunScript(special://userdata/keymaps/py_ispvr.py,"ActivateWindow(Teletext)","RunScript(script.xbmc.subtitles)")</red_btn>
+      <green_btn>ActivateWindow(OSDVideoSettings)</green_btn>
+      <yellow_btn>ActivateWindow(OSDAudioSettings)</yellow_btn>
+      <blue_btn>RunScript(special://userdata/keymaps/py_ispvr.py,"PlayerControl(Record)","ActivateWindow(VideoBookmarks)")</blue_btn>
+    </keyboard>
+  </VideoOSD>
+  <VideoMenu>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <play_pause>Select</play_pause>
+      <menu_btn>OSD</menu_btn>
+      <info_btn>Info</info_btn>
+      <settings_btn>AspectRatio</settings_btn>
+      <red_btn>RunScript(script.xbmc.subtitles)</red_btn>
+      <green_btn>ActivateWindow(OSDVideoSettings)</green_btn>
+      <yellow_btn>ActivateWindow(OSDAudioSettings)</yellow_btn>
+      <blue_btn>ActivateWindow(VideoBookmarks)</blue_btn>
+      <return_btn>Fullscreen</return_btn>
+      <select_btn>Select</select_btn>
+      <next_track>SkipNext</next_track>
+      <prev_track>SkipPrevious</prev_track>
+    </keyboard>
+  </VideoMenu>
+  <OSDVideoSettings>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <info_btn>Info</info_btn>
+      <green_btn>Close</green_btn>
+    </keyboard>
+  </OSDVideoSettings>
+  <OSDAudioSettings>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <info_btn>Info</info_btn>
+      <yellow_btn>Close</yellow_btn>
+    </keyboard>
+  </OSDAudioSettings>
+  <VideoBookmarks>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <red_btn>Delete</red_btn>
+      <blue_btn>Close</blue_btn>
+    </keyboard>
+  </VideoBookmarks>
+  <MyVideoLibrary>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <settings_btn>ActivateWindow(VideosSettings)</settings_btn>
+      <ch_up>PageUp</ch_up>
+      <ch_down>PageDown</ch_down>
+      <fav_btn>ActivateWindow(Favourites)</fav_btn>
+      <red_btn>Delete</red_btn>
+      <green_btn>Queue</green_btn>
+      <list_btn>ActivateWindow(VideoPlaylist)</list_btn>
+      <zero>ToggleWatched</zero> 
+    </keyboard>
+  </MyVideoLibrary>
+  <MyVideoFiles>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <settings_btn>ActivateWindow(VideosSettings)</settings_btn>
+      <ch_up>PageUp</ch_up>
+      <ch_down>PageDown</ch_down>
+      <list_btn>ActivateWindow(VideoPlaylist)</list_btn>
+      <fav_btn>ActivateWindow(Favourites)</fav_btn>
+      <red_btn>Delete</red_btn>
+      <green_btn>Queue</green_btn>
+      <zero>ToggleWatched</zero> 
+    </keyboard>
+  </MyVideoFiles>
+  <MyVideoPlaylist>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <list_btn>Back</list_btn>
+      <ch_up>MoveItemUp</ch_up>
+      <ch_down>MoveItemDown</ch_down>
+      <fav_btn>ActivateWindow(Favourites)</fav_btn>
+      <red_btn>Delete</red_btn>
+    </keyboard>
+  </MyVideoPlaylist>
+  <VideosSettings>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <settings_btn>Back</settings_btn>
+    </keyboard>
+  </VideosSettings>
+  <MyPictures>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <settings_btn>ActivateWindow(PicturesSettings)</settings_btn>
+      <ch_up>PageUp</ch_up>
+      <ch_down>PageDown</ch_down>
+      <fav_btn>ActivateWindow(Favourites)</fav_btn>
+      <red_btn>Delete</red_btn>
+    </keyboard>
+  </MyPictures>
+  <PicturesSettings>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <settings_btn>Back</settings_btn>
+    </keyboard>
+  </PicturesSettings>
+  <ContextMenu>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <menu_btn>Back</menu_btn>
+    </keyboard>
+  </ContextMenu>
+  <Scripts>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <info_btn>Info</info_btn>
+      <fav_btn>ActivateWindow(Favourites)</fav_btn>
+    </keyboard>
+  </Scripts>
+  <MusicInformation>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <info_btn>Back</info_btn>
+    </keyboard>
+  </MusicInformation>
+  <MovieInformation>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <info_btn>Back</info_btn>
+    </keyboard>
+  </MovieInformation>
+  <PictureInfo>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <play_pause>Pause</play_pause>
+      <ch_up>NextPicture</ch_up>
+      <ch_down>PreviousPicture</ch_down>
+      <info_btn>Back</info_btn>
+    </keyboard>
+  </PictureInfo>
+  <Teletext>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <red_btn>Close</red_btn>
+    </keyboard>
+  </Teletext>
+  <Favourites>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <ch_up>MoveItemUp</ch_up>
+      <ch_down>MoveItemDown</ch_down>
+      <red_btn>Delete</red_btn>
+      <fav_btn>Close</fav_btn>
+    </keyboard>
+  </Favourites>
+  <NumericInput>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <return_btn>Close</return_btn>
+    </keyboard>
+  </NumericInput>
+  <FullscreenLiveTV>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <menu_btn>OSD</menu_btn>
+      <list_btn>ActivateWindow(PVROSDGuide)</list_btn>
+      <left>StepBack</left>
+      <right>StepForward</right>
+      <up>ActivateWindow(PVROSDChannels)</up>
+      <down>ActivateWindow(PVROSDChannels)</down>
+      <ch_up>ChannelUp</ch_up>
+      <ch_down>ChannelDown</ch_down>
+      <settings_btn>AspectRatio</settings_btn>
+      <fav_btn>NextSubtitle</fav_btn>
+      <red_btn>ActivateWindow(Teletext)</red_btn>
+      <green_btn>ActivateWindow(OSDVideoSettings)</green_btn>
+      <yellow_btn>ActivateWindow(OSDAudioSettings)</yellow_btn>
+      <blue_btn>PlayerControl(Record)</blue_btn>
+    </keyboard>
+  </FullscreenLiveTV>
+  <MyPVR>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <settings_btn>ActivateWindow(PVRSettings)</settings_btn>
+      <ch_up>ChannelUp</ch_up>
+      <ch_down>ChannelDown</ch_down>
+      <seven>ActivateWindowAndFocus(MyPVR, 33,0, 12,0)</seven>
+      <nine>ActivateWindowAndFocus(MyPVR, 32,0, 11,0)</nine>
+      <fav_btn>ActivateWindow(Favourites)</fav_btn>
+      <red_btn>Delete</red_btn>
+    </keyboard>
+  </MyPVR>
+  <PVROSDChannels>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <return_btn>Close</return_btn>
+      <select_btn>RunScript(special://userdata/keymaps/py_select_close.py)</select_btn>
+      <ch_up>ChannelUp</ch_up>
+      <ch_down>ChannelDown</ch_down>
+    </keyboard>
+  </PVROSDChannels>
+  <PVROSDGuide>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <return_btn>Close</return_btn>
+      <ch_up>PageUp</ch_up>
+      <ch_down>PageDown</ch_down>
+      <info_btn>Select</info_btn>
+      <list_btn>Back</list_btn>
+    </keyboard>
+  </PVROSDGuide>
+  <PVRGuideInfo>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <return_btn>Close</return_btn>
+      <info_btn>Close</info_btn>
+    </keyboard>
+  </PVRGuideInfo>
+  <PVROSDDirector>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <return_btn>Close</return_btn>
+    </keyboard>
+  </PVROSDDirector>
+  <PVROSDCutter>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <return_btn>Close</return_btn>
+    </keyboard>
+  </PVROSDCutter>
+  <MyTVSettings>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <return_btn>PreviousMenu</return_btn>
+    </keyboard>
+  </MyTVSettings>
+  <FileBrowser>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <ch_up>PageUp</ch_up>
+      <ch_down>PageDown</ch_down>
+      <fav_btn>ActivateWindow(Favourites)</fav_btn>
+      <red_btn>Delete</red_btn>
+      <green_btn>Highlight</green_btn>
+    </keyboard>
+  </FileBrowser>
+  <ShutdownMenu>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <return_btn>Close</return_btn>
+    </keyboard>
+  </ShutdownMenu>
+  <AddonInformation>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <info_btn>Back</info_btn>
+    </keyboard>
+  </AddonInformation>
+  <AddonSettings>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <red_btn>Delete</red_btn>
+    </keyboard>
+  </AddonSettings>
+  <Weather>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <settings_btn>ActivateWindow(WeatherSettings)</settings_btn>
+      <fav_btn>ActivateWindow(Favourites)</fav_btn>
+    </keyboard>
+  </Weather>
+  <WeatherSettings>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <settings_btn>Back</settings_btn>
+    </keyboard>
+  </WeatherSettings>
+  <SliderDialog>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <!-- Empty -->
+    </keyboard>
+  </SliderDialog>
+</keymap>
