@@ -12,7 +12,7 @@
       <play_pause>Play</play_pause>					<!-- Button 05 : > -->
       <prev_track>SkipPrevious</prev_track>				<!-- Button 06 : |<< -->
       <f>FastForward</f>						<!-- Button 07 : >> -->
-      <!-- n/a -->							<!-- Button 08 : Record -->
+      <record>noop</record> 						<!-- Button 08 : Record -->
       <pause>Pause</pause> 						<!-- Button 09 : || -->
       <next_track>SkipNext</next_track>					<!-- Button 10 : >>| -->
       <f8>noop</f8> <!-- Mouse On/Off Fix -->				<!-- Button 11 : Mouse Toggle -->
