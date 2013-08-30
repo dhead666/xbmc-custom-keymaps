@@ -55,7 +55,7 @@
       <!-- Empty -->
     </keyboard>
   </LoginScreen>
-  <home_btn>
+  <Home>
     <keyboard name="Motorola Nyxboard Hybrid">
       <home_btn>FullScreen</home_btn>
       <seven>ActivateWindowAndFocus(MyPVR, 33,0, 12,0)</seven>
@@ -68,7 +68,7 @@
       <yellow_btn>ActivateWindow(Videos,TvShowTitles)</yellow_btn>
       <blue_btn>ActivateWindow(Pictures)</blue_btn>
     </keyboard>
-  </home_btn>
+  </Home>
   <SystemInfo>
     <keyboard name="Motorola Nyxboard Hybrid">
       <info_btn>Back</info_btn>

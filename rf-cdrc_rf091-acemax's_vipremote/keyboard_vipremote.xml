@@ -39,7 +39,7 @@
       <eight>Number8</eight>						<!-- Button 32 : 8 -->
       <nine>Number9</nine>						<!-- Button 33 : 9 -->
       <zero>Number0</zero>						<!-- Button 34 : 0 -->
-      <plus>Info</plus>	<!-- or plus -->				<!-- Button 35 : Info -->
+      <plus>Info</plus>	<!-- or numpadplus -->				<!-- Button 35 : Info -->
       <numpadminus>Playlist</numpadminus>				<!-- Button 36 : List -->
       <pageup>ActivateWindow(Settings)</pageup>				<!-- Button 37 : Settings -->
       <pagedown>ContextMenu</pagedown>					<!-- Button 38 : Menu -->
