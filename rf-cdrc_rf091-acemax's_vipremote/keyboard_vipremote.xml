@@ -39,7 +39,7 @@
       <eight>Number8</eight>						<!-- Button 32 : 8 -->
       <nine>Number9</nine>						<!-- Button 33 : 9 -->
       <zero>Number0</zero>						<!-- Button 34 : 0 -->
-      <plus>Info</plus>	<!-- or numpadplus -->				<!-- Button 35 : Info -->
+      <plus>Info</plus>	<!-- or plus -->				<!-- Button 35 : Info -->
       <numpadminus>Playlist</numpadminus>				<!-- Button 36 : List -->
       <pageup>ActivateWindow(Settings)</pageup>				<!-- Button 37 : Settings -->
       <pagedown>ContextMenu</pagedown>					<!-- Button 38 : Menu -->
@@ -61,7 +61,7 @@
       <home>FullScreen</home>
       <seven>ActivateWindowAndFocus(MyPVR, 33,0, 12,0)</seven>
       <nine>ActivateWindowAndFocus(MyPVR, 32,0, 11,0)</nine>
-      <numpadplus>ActivateWindow(SystemInfo)</numpadplus>
+      <plus>ActivateWindow(SystemInfo)</plus>
       <numpadminus>Playlist</numpadminus>
       <numpadzero>ActivateWindow(Favourites)</numpadzero>
       <f9>ActivateWindow(Music)</f9>
@@ -72,7 +72,7 @@
   </Home>
   <SystemInfo>
     <keyboard name="Motorola Nyxboard Hybrid">
-      <numpadplus>Back</numpadplus>
+      <plus>Back</plus>
       <numpadzero>ActivateWindow(Favourites)</numpadzero>
     </keyboard>
   </SystemInfo>
@@ -152,7 +152,7 @@
       <f4>Fullscreen</f4>
       <return>OSD</return>
       <pagedown>OSD</pagedown>
-      <numpadplus>Info</numpadplus>
+      <plus>Info</plus>
       <left>StepBack</left>
       <right>StepForward</right>
       <up>BigStepForward</up>
@@ -177,7 +177,7 @@
     <keyboard name="Motorola Nyxboard Hybrid">
       <f>FastForward</f>
       <r>Rewind</r>
-      <numpadplus>Back</numpadplus>
+      <plus>Back</plus>
       <pagedown>OSD</pagedown>
     </keyboard>
   </FullscreenInfo>
@@ -194,7 +194,7 @@
       <f4>Fullscreen</f4>
       <return>OSD</return>
       <pagedown>OSD</pagedown>
-      <numpadplus>Info</numpadplus>
+      <plus>Info</plus>
       <left>SkipPrevious</left>
       <right>SkipNext</right>
       <up>RunScript(special://userdata/keymaps/py_ispvr.py,"ActivateWindow(PVROSDChannels)","Action(IncreaseRating)")</up>
@@ -213,7 +213,7 @@
       <next_track>SkipNext</next_track>
       <prev_track>SkipPrevious</prev_track>
       <pagedown>Back</pagedown>
-      <numpadplus>Info</numpadplus>
+      <plus>Info</plus>
       <f9>RunScript(script.cu.lrclyrics)</f9>
       <f10>SendClick(500)</f10>
       <f11>Addon.Default.OpenSettings(xbmc.player.musicviz)</f11>
@@ -228,7 +228,7 @@
       <next_track>SkipNext</next_track>
       <prev_track>SkipPrevious</prev_track>
       <pagedown>Back</pagedown>
-      <numpadplus>Info</numpadplus>
+      <plus>Info</plus>
       <numpadminus>ActivateWindow(MusicPlaylist)</numpadminus>
     </keyboard>
   </VisualisationSettings>
@@ -239,7 +239,7 @@
       <next_track>SkipNext</next_track>
       <prev_track>SkipPrevious</prev_track>
       <pagedown>Back</pagedown>
-      <numpadplus>Info</numpadplus>
+      <plus>Info</plus>
       <f12>Close</f12>
       <numpadminus>ActivateWindow(MusicPlaylist)</numpadminus>
     </keyboard>
@@ -248,7 +248,7 @@
     <keyboard name="Motorola Nyxboard Hybrid">
       <play_pause>Pause</play_pause>
       <pagedown>ActivateWindow(PlayerControls)</pagedown>
-      <numpadplus>Info</numpadplus>
+      <plus>Info</plus>
       <f2>ZoomIn</f2>
       <f3>ZoomOut</f3>
       <return>Rotate</return>
@@ -273,7 +273,7 @@
       <pagedown>Back</pagedown>
       <numpadminus>RunScript(special://userdata/keymaps/py_ispvr.py,"ActivateWindow(PVROSDGuide)","ActivateWindow(VideoPlaylist)")</numpadminus>
       <pageup>AspectRatio</pageup> 
-      <numpadplus>Info</numpadplus>
+      <plus>Info</plus>
       <numpadzero>NextSubtitle</numpadzero>
       <f9>RunScript(special://userdata/keymaps/py_ispvr.py,"ActivateWindow(Teletext)","RunScript(script.xbmc.subtitles)")</f9>
       <f10>ActivateWindow(OSDVideoSettings)</f10>
@@ -285,7 +285,7 @@
     <keyboard name="Motorola Nyxboard Hybrid">
       <play_pause>Select</play_pause>
       <pagedown>OSD</pagedown>
-      <numpadplus>Info</numpadplus>
+      <plus>Info</plus>
       <pageup>AspectRatio</pageup>
       <f9>RunScript(script.xbmc.subtitles)</f9>
       <f10>ActivateWindow(OSDVideoSettings)</f10>
@@ -299,13 +299,13 @@
   </VideoMenu>
   <OSDVideoSettings>
     <keyboard name="Motorola Nyxboard Hybrid">
-      <numpadplus>Info</numpadplus>
+      <plus>Info</plus>
       <f10>Close</f10>
     </keyboard>
   </OSDVideoSettings>
   <OSDAudioSettings>
     <keyboard name="Motorola Nyxboard Hybrid">
-      <numpadplus>Info</numpadplus>
+      <plus>Info</plus>
       <f11>Close</f11>
     </keyboard>
   </OSDAudioSettings>
@@ -374,18 +374,18 @@
   </ContextMenu>
   <Scripts>
     <keyboard name="Motorola Nyxboard Hybrid">
-      <numpadplus>Info</numpadplus>
+      <plus>Info</plus>
       <numpadzero>ActivateWindow(Favourites)</numpadzero>
     </keyboard>
   </Scripts>
   <MusicInformation>
     <keyboard name="Motorola Nyxboard Hybrid">
-      <numpadplus>Back</numpadplus>
+      <plus>Back</plus>
     </keyboard>
   </MusicInformation>
   <MovieInformation>
     <keyboard name="Motorola Nyxboard Hybrid">
-      <numpadplus>Back</numpadplus>
+      <plus>Back</plus>
     </keyboard>
   </MovieInformation>
   <PictureInfo>
@@ -393,7 +393,7 @@
       <play_pause>Pause</play_pause>
       <f2>NextPicture</f2>
       <f3>PreviousPicture</f3>
-      <numpadplus>Back</numpadplus>
+      <plus>Back</plus>
     </keyboard>
   </PictureInfo>
   <Teletext>
@@ -456,14 +456,14 @@
       <f4>Close</f4>
       <f2>PageUp</f2>
       <f3>PageDown</f3>
-      <numpadplus>Select</numpadplus>
+      <plus>Select</plus>
       <numpadminus>Back</numpadminus>
     </keyboard>
   </PVROSDGuide>
   <PVRGuideInfo>
     <keyboard name="Motorola Nyxboard Hybrid">
       <f4>Close</f4>
-      <numpadplus>Close</numpadplus>
+      <plus>Close</plus>
     </keyboard>
   </PVRGuideInfo>
   <PVROSDDirector>
@@ -497,7 +497,7 @@
   </ShutdownMenu>
   <AddonInformation>
     <keyboard name="Motorola Nyxboard Hybrid">
-      <numpadplus>Back</numpadplus>
+      <plus>Back</plus>
     </keyboard>
   </AddonInformation>
   <AddonSettings>

@@ -7,12 +7,12 @@
       <!-- n/a -->										<!-- Button 01 : Power -->
       <volume_mute>Mute</volume_mute>										<!-- Button 02 : Mute -->
       <rewind_btn>Rewind</rewind_btn>									<!-- Button 03 : << -->
-      <stop>Stop</stop>										<!-- Button 04 : stop -->
-      <play_pause>Play</play_pause>								<!-- Button 05 : > -->
+      <stop_btn>Stop</stop_btn>										<!-- Button 04 : stop -->
+      <play_pause_btn>Play</play_pause_btn>								<!-- Button 05 : > -->
       <prev_track>SkipPrevious</prev_track>							<!-- Button 06 : |<< -->
       <fastforward_btn>FastForward</fastforward_btn>							<!-- Button 07 : >> -->
       <!-- n/a -->											<!-- Button 08 : Record -->
-      <pause>Pause</pause> 										<!-- Button 09 : || -->
+      <pause_btn>Pause</pause_btn> 										<!-- Button 09 : || -->
       <next_track>SkipNext</next_track>								<!-- Button 10 : >>| -->
       <f8>noop</f8> <!-- Mouse On/Off Fix -->								<!-- Button 11 : Mouse Toggle -->
       <!-- n/a -->									<!-- Button 12 : Mouse Left Click -->
@@ -26,7 +26,7 @@
       <volume_down>VolumeDown</volume_down>							<!-- Button 20 : Vol- -->
       <ch_up>PageUp</ch_up>  								<!-- Button 21 : pg+ -->
       <ch_down>PageDown</ch_down>								<!-- Button 22 : pg- -->
-      <home>ActivateWindow(Home)</home>							<!-- Button 23 : home -->
+      <home_btn>ActivateWindow(Home)</home_btn>							<!-- Button 23 : home -->
       <return_btn>Back</return_btn>									<!-- Button 24 : back -->
       <one>Number1</one>										<!-- Button 25 : 1 -->
       <two>Number2</two>										<!-- Button 26 : 2 -->
@@ -55,9 +55,9 @@
       <!-- Empty -->
     </keyboard>
   </LoginScreen>
-  <Home>
+  <home_btn>
     <keyboard name="Motorola Nyxboard Hybrid">
-      <home>FullScreen</home>
+      <home_btn>FullScreen</home_btn>
       <seven>ActivateWindowAndFocus(MyPVR, 33,0, 12,0)</seven>
       <nine>ActivateWindowAndFocus(MyPVR, 32,0, 11,0)</nine>
       <info_btn>ActivateWindow(SystemInfo)</info_btn>
@@ -68,7 +68,7 @@
       <yellow_btn>ActivateWindow(Videos,TvShowTitles)</yellow_btn>
       <blue_btn>ActivateWindow(Pictures)</blue_btn>
     </keyboard>
-  </Home>
+  </home_btn>
   <SystemInfo>
     <keyboard name="Motorola Nyxboard Hybrid">
       <info_btn>Back</info_btn>
@@ -245,7 +245,7 @@
   </VisualisationPresetList>
   <SlideShow>
     <keyboard name="Motorola Nyxboard Hybrid">
-      <play_pause>Pause</play_pause>
+      <play_pause_btn>Pause</play_pause_btn>
       <menu_btn>ActivateWindow(PlayerControls)</menu_btn>
       <info_btn>Info</info_btn>
       <ch_up>ZoomIn</ch_up>
@@ -282,7 +282,7 @@
   </VideoOSD>
   <VideoMenu>
     <keyboard name="Motorola Nyxboard Hybrid">
-      <play_pause>Select</play_pause>
+      <play_pause_btn>Select</play_pause_btn>
       <menu_btn>OSD</menu_btn>
       <info_btn>Info</info_btn>
       <settings_btn>AspectRatio</settings_btn>
@@ -389,7 +389,7 @@
   </MovieInformation>
   <PictureInfo>
     <keyboard name="Motorola Nyxboard Hybrid">
-      <play_pause>Pause</play_pause>
+      <play_pause_btn>Pause</play_pause_btn>
       <ch_up>NextPicture</ch_up>
       <ch_down>PreviousPicture</ch_down>
       <info_btn>Back</info_btn>
