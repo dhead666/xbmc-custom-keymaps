@@ -1,0 +1,140 @@
+This is an example how the key press displayed on xbmc.log
+Recognized keys as "Sound" will have an OnKey value different from 0
+Unrecognized keys as "Record" will have an OnKey value equal to 0
+
+
+Power
+
+Sound
+  Keyboard: scancode: 79, sym: 00ad, unicode: 0000, modifier: 1000
+  OnKey: volume_mute (f0b7) pressed, action is Mute
+
+<<
+  Keyboard: scancode: b0, sym: 0072, unicode: 0000, modifier: 1000
+  OnKey: r (f052) pressed, action is Rewind
+
+>>
+  Keyboard: scancode: d8, sym: 0066, unicode: 0000, modifier: 1000
+  OnKey: f (f046) pressed, action is FastForward
+
+[]
+  Keyboard: scancode: ae, sym: 00b2, unicode: 0000, modifier: 1000
+  OnKey: stop (f0bc) pressed, action is Stop
+
+Record
+  Keyboard: scancode: af, sym: 0000, unicode: 0000, modifier: 1000
+  GetActionCode: Trying Hardy keycode for 0xf200
+  Previous line repeats 3 times.
+  OnKey: 0 (f200) pressed, action is
+
+>
+  Keyboard: scancode: d7, sym: 00b3, unicode: 0000, modifier: 1000
+  OnKey: play_pause (f0bd) pressed, action is Pause
+
+||
+  Keyboard: scancode: 7f, sym: 0013, unicode: 0000, modifier: 1000
+  OnKey: pause (f0dd) pressed, action is
+
+|<<
+  Keyboard: scancode: ad, sym: 00b1, unicode: 0000, modifier: 1000
+  OnKey: prev_track (f0bb) pressed, action is SkipPrevious
+
+>>|
+  Keyboard: scancode: ab, sym: 00b0, unicode: 0000, modifier: 1000
+  OnKey: next_track (f0ba) pressed, action is SkipNext
+
+Mouse On/Off
+  Keyboard: scancode: 49, sym: 0120, unicode: 0000, modifier: 1000
+  OnKey: f7 (f096) pressed, action is
+  Keyboard: scancode: 4a, sym: 0121, unicode: 0000, modifier: 1000
+  OnKey: f8 (f097) pressed, action is Mute
+
+Mouse Click
+  ProcessMouse: trying mouse action leftclick
+
+Exit
+15:47:25 T:140377254811584   DEBUG: ProcessMouse: trying mouse action rightclick
+
+Up
+  Keyboard: scancode: 6f, sym: 0111, unicode: 0000, modifier: 1000
+  OnKey: up (f080) pressed, action is Up
+
+Down
+  Keyboard: scancode: 74, sym: 0112, unicode: 0000, modifier: 1000
+  OnKey: down (f081) pressed, action is Down
+
+Left
+  Keyboard: scancode: 71, sym: 0114, unicode: 0000, modifier: 1000
+  OnKey: left (f082) pressed, action is Left
+
+Right
+  Keyboard: scancode: 72, sym: 0113, unicode: 0000, modifier: 1000
+  OnKey: right (f083) pressed, action is Right
+
+OK
+  Keyboard: scancode: 24, sym: 000d, unicode: 000d, modifier: 1000
+  OnKey: return (f00d) pressed, action is Select
+
+Vol+
+  Keyboard: scancode: 7b, sym: 00af, unicode: 0000, modifier: 1000
+  OnKey: volume_up (f0b9) pressed, action is VolumeUp
+
+Vol-
+  Keyboard: scancode: 7a, sym: 00ae, unicode: 0000, modifier: 1000
+  OnKey: volume_down (f0b8) pressed, action is VolumeDown
+
+Home
+  Keyboard: scancode: 6e, sym: 0116, unicode: 0000, modifier: 1000
+  OnKey: home (f088) pressed, action is XBMC.ActivateWindow(Home)
+
+Search
+  Keyboard: scancode: 46, sym: 011d, unicode: 0000, modifier: 1000
+  OnKey: f4 (f093) pressed, action is ContextMenu
+
+Ch+
+  Keyboard: scancode: 44, sym: 011b, unicode: 0000, modifier: 1000
+  OnKey: f2 (f091) pressed, action is
+
+Ch-
+  Keyboard: scancode: 45, sym: 011c, unicode: 0000, modifier: 1000
+  OnKey: f3 (f092) pressed, action is OSD
+
+TV*
+  Keyboard: scancode: 56, sym: 010e, unicode: 002b, modifier: 1000
+  OnKey: numpadplus (f064) pressed, action is VolumeUp
+
+VOD*
+  Keyboard: scancode: 52, sym: 010d, unicode: 002d, modifier: 1000
+  OnKey: numpadminus (f063) pressed, action is VolumeDown
+
+Apps
+  Keyboard: scancode: 70, sym: 0118, unicode: 0000, modifier: 1000
+  OnKey: pageup (f084) pressed, action is PageUp
+
+Web
+  Keyboard: scancode: 75, sym: 0119, unicode: 0000, modifier: 1000
+  OnKey: pagedown (f085) pressed, action is PageDown
+
+*/#
+  Keyboard: scancode: 51, sym: 0109, unicode: 0039, modifier: 1000
+  OnKey: numpadnine (f079) pressed, action is Number9
+
+FAV
+  Keyboard: scancode: 5a, sym: 0100, unicode: 0030, modifier: 1000
+  OnKey: numpadzero (f070) pressed, action is Number0
+
+Red
+  Keyboard: scancode: 4b, sym: 0122, unicode: 0000, modifier: 1000
+  OnKey: f9 (f098) pressed, action is VolumeDown
+
+Green
+  Keyboard: scancode: 4c, sym: 0123, unicode: 0000, modifier: 1000
+  OnKey: f10 (f099) pressed, action is VolumeUp
+
+Yellow
+  Keyboard: scancode: 5f, sym: 0124, unicode: 0000, modifier: 1000
+  OnKey: f11 (f09a) pressed, action is
+
+Blue
+  Keyboard: scancode: 60, sym: 0125, unicode: 0000, modifier: 1000
+  OnKey: f12 (f09b) pressed, action is
