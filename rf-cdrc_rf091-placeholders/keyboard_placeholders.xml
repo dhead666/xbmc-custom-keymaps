@@ -62,6 +62,7 @@
       <nine>ActivateWindowAndFocus(MyPVR, 32,0, 11,0)</nine>
       <info_btn>ActivateWindow(SystemInfo)</info_btn>
       <list_btn>Playlist</list_btn>
+      <menu_btn>ActivateWindow(PlayerControls)</menu_btn>
       <fav_btn>ActivateWindow(Favourites)</fav_btn>
       <red_btn>ActivateWindow(Music)</red_btn>
       <green_btn>ActivateWindow(Videos,MovieTitles)</green_btn>
@@ -436,8 +437,8 @@
       <settings_btn>ActivateWindow(PVRSettings)</settings_btn>
       <ch_up>ChannelUp</ch_up>
       <ch_down>ChannelDown</ch_down>
-      <seven>ActivateWindowAndFocus(MyPVR, 33,0, 12,0)</seven>
-      <nine>ActivateWindowAndFocus(MyPVR, 32,0, 11,0)</nine>
+      <seven>Control.Message(33, click)</seven>
+      <nine>Control.Message(32, click)</nine>
       <fav_btn>ActivateWindow(Favourites)</fav_btn>
       <red_btn>Delete</red_btn>
     </keyboard>
@@ -448,6 +449,7 @@
       <select_btn>RunScript(special://userdata/keymaps/py_select_close.py)</select_btn>
       <ch_up>ChannelUp</ch_up>
       <ch_down>ChannelDown</ch_down>
+      <fav_btn>Action(NextChannelGroup)</fav_btn>
     </keyboard>
   </PVROSDChannels>
   <PVROSDGuide>
